@@ -1,11 +1,12 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-header">
     <%= link_to "ICS 616 Demo", root_path, class: "navbar-brand" %>
   </div>
   <ul class="nav navbar-nav">
-    <li><a href="quotes.html">Quotes</a></li>
-    <li><a href="essays.html">Essays</a></li>
-    <li><a href="cats_captions.html">Cats with Captions</a></li>
-    <li><a href="cats_without_captions.html">Cats without Captions</a></li>
+    <li><%= link_to "Quotes", quotes_path %></li>
+    <li><%= link_to "Essays", essays_path %></li>
+    <li><%= link_to "Cats with Captions", cats_captions_path %></li>
+    <li><%= link_to "Cats without Captions", cats_without_captions_path %></li>
+    <li><%= link_to "About", about_path %></li>
   </ul>
 </nav>

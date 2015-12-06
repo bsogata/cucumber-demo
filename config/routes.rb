@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'static_pages#index'
   
+  get '/about', to: 'static_pages#about'
   get '/cats_captions', to: 'static_pages#cats_captions'
   get '/cats_without_captions', to: 'static_pages#cats_without_captions'
   get '/essays', to: 'static_pages#essays'
