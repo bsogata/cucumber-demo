@@ -3,7 +3,7 @@ class StaticPagesController < ApplicationController
     
   end
   
-  def cats_captions
+  def cats_with_captions
     
   end
   
